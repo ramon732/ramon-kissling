@@ -118,16 +118,12 @@ footer {
     display: block;
 }
 
-.snake-link {
-    grid-column: 1 / 3;
-}
+
 
 .bilder-grid img {
     cursor: pointer;
 }
-.volleyball-link {
-    grid-column: 1 / 3;
-}
+
 
 .volleyball {
     width: 30%;
