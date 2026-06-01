@@ -90,7 +90,7 @@ footer {
 }
 
 .hand {
-    width: 135%;
+    width: 100%;
     height: 500px;
     object-fit: cover;
     object-position: center;
@@ -99,7 +99,7 @@ footer {
 
 
 .terra {
-    width: 180%;
+    width: 100%;
     height: 500px;
     object-fit: cover;
     object-position: center;
@@ -130,8 +130,8 @@ footer {
 }
 
 .volleyball {
-    width: 50%;
-    height: 800px;
+    width: 100%;
+    height: 500px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
