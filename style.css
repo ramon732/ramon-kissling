@@ -132,8 +132,6 @@ footer {
 .volleyball {
     width: 100%;
     height: auto;
-    object-fit: contain;
-    object-position: center;
     border-radius: 10px;
 }
 .terrarium-bild {
