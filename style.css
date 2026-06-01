@@ -119,14 +119,14 @@ footer {
 }
 
 .snake-link {
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
 }
 
 .bilder-grid img {
     cursor: pointer;
 }
 .volleyball-link {
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
 }
 
 .volleyball {
