@@ -146,3 +146,12 @@ footer {
     max-width: 1000px;
     height: auto;
 }
+.pdf-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
