@@ -1,0 +1,148 @@
+/* ========================= */
+/* DATEI: style.css */
+/* ========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: #0f172a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+nav {
+    background: #1e293b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+.home-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-link .card {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.home-link .card:hover {
+    transform: scale(1.02);
+    background: #f1f5f9;
+}
+.card a {
+    text-decoration: none;
+    color: #222;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.card a {
+    text-decoration: none;
+    color: #222;
+}
+.bilder-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: start;
+}
+
+.hand {
+    width: 135%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+
+.terra {
+    width: 180%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.snake {
+    grid-column: 1 / 4;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 10px;
+}
+.bilder-grid a {
+    display: block;
+}
+
+.snake-link {
+    grid-column: 1 / 4;
+}
+
+.bilder-grid img {
+    cursor: pointer;
+}
+.volleyball-link {
+    grid-column: 1 / 4;
+}
+
+.volleyball {
+    width: 50%;
+    height: 800px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.terrarium-bild {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.terrarium-bild img {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+}
