@@ -149,3 +149,7 @@ footer {
     text-decoration: none;
     border-radius: 5px;
 }
+.projekt-link {
+    text-decoration: none;
+    color: inherit;
+}
