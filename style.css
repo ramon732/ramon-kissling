@@ -198,3 +198,19 @@ footer {
     height: auto;    /* verhindert Verzerrung */
     border-radius: 10px;
 }
+.reise-bild img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.agame-bild {
+    width: 80%;
+    max-width: 600px;
+    height: 550px;
+    object-fit: cover;
+    object-position: center 70%;
+}
