@@ -208,9 +208,9 @@ footer {
 }
 
 .agame-bild {
-    width: 80%;
-    max-width: 600px;
-    height: 550px;
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
     object-fit: cover;
-    object-position: center 70%;
+    object-position: center 20%;
 }
