@@ -187,3 +187,14 @@ footer {
         margin-bottom: 15px;
     }
 }
+.bild-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bild-container img {
+    width: 70%;      /* Bildgrösse */
+    max-width: 700px;
+    height: auto;    /* verhindert Verzerrung */
+    border-radius: 10px;
+}
