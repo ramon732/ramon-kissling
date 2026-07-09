@@ -186,6 +186,16 @@ footer {
     .card {
         margin-bottom: 15px;
     }
+    .terrarium-bilder {
+    flex-direction: column;
+    align-items: center;
+}
+
+.terrarium-bilder img {
+    width: 100%;
+    max-width: 100%;
+}
+
 }
 .bild-container {
     text-align: center;
@@ -213,4 +223,19 @@ footer {
     height: 250px;
     object-fit: cover;
     object-position: center 20%;
+}
+.terrarium-bilder {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.terrarium-bilder img {
+    width: 48%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
