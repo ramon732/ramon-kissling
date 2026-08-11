@@ -239,3 +239,34 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* ===========================
+   Responsive Bilder
+=========================== */
+
+/* Tablet */
+@media (max-width: 900px) {
+    .card img,
+    .reise-bild img,
+    .terrarium-bilder img {
+        max-width: 350px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Handy */
+@media (max-width: 600px) {
+    .card img,
+    .reise-bild img,
+    .terrarium-bilder img {
+        max-width: 280px;
+        width: 100%;
+        height: auto;
+    }
+
+    .terrarium-bilder {
+        flex-direction: column;
+        align-items: center;
+    }
+}
